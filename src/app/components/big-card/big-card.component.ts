@@ -9,6 +9,7 @@ export class BigCardComponent implements OnInit {
   @Input() photoCover:string = '';
   @Input() cardTitle:string = '';
   @Input() cardDescription:string = '';
+  @Input() idCardContent:string = '0';
   constructor() { }
 
   ngOnInit(): void {
